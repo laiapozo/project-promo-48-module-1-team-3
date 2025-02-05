@@ -9,9 +9,109 @@
     <link rel="stylesheet" href="./styles/mobile.css" />
     <title>Ada Dev</title>
   </head>
-  <body>
-    <header>Cabecera</header>
-    <main></main>
+  <body class="body">
+    <header class="header">
+      <img class="logo" src="./images/logo-adalab.png" alt="Logo AdaDev" />
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="item">Home</li>
+          <li class="item">Nosotros</li>
+          <li class="item">Blog</li>
+          <li class="item">Servicios</li>
+        </ul>
+      </nav>
+      <button class="contact">
+        Contáctanos<svg
+          class="arrow"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+        >
+          <path
+            d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+          />
+        </svg>
+      </button>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <h1 class="title">
+          Bienvenidas a <span class="adadev-color">AdaDev</span>
+        </h1>
+        <!-- Faltaría poner esa línea -->
+        <button class="explore-services-hero">
+          Explora nuestros servicios
+        </button>
+      </section>
+
+      <section class="services">
+        <h2 class="title-services">Tenemos todo lo que necesitas</h2>
+        <section class="articles-services">
+          <article class="article-tres-logos">
+            <img src="./images/2.png" alt="Logo programación" />
+            <h3>Programación</h3>
+            <p>
+              Trabaja con las mejores expertas del sector y las últimas
+              tecnologías.
+            </p>
+            <button>Leer más</button>
+          </article>
+          <article class="article-tres-logos">
+            <img src="./images/3.png" alt="Logo marketing" />
+            <h3>Marketing</h3>
+            <p>Consigue que tu negocio sea visible en todo el mundo.</p>
+            <button>Leer más</button>
+          </article>
+          <article class="article-tres-logos">
+            <img src="./images/1.png" alt="Logo diseño" />
+            <h3>Diseño</h3>
+            <p>Dale forma a tu idea con los diseños más atractivos.</p>
+            <button>Leer más</button>
+          </article>
+        </section>
+      </section>
+
+      <section class="projects">
+        <h6 class="subtitle-projects">Proyectos</h6>
+        <h2 class="title-projects">
+          Contamos con una larga trayectoria en el mundo digital. Estos son
+          algunos de nuestros proyectos más conocidos.
+        </h2>
+        <section class="articles-projects">
+          <article class="article-4-proyectos">
+            <img src="./images/10.png" alt="Imagen BLVCK" />
+            <!-- No estamos seguras de que el display flex funcione con listas -->
+            <ul>
+              <li>BLVCK</li>
+              <li>Branding</li>
+            </ul>
+          </article>
+          <article class="article-4-proyectos">
+            <img src="./images/5.png" alt="Imagen CREAM" />
+            <ul>
+              <li>CREAM</li>
+              <li>Branding</li>
+            </ul>
+          </article>
+          <article class="article-4-proyectos">
+            <img src="./images/11.png" alt="Imagen FREDI" />
+            <ul>
+              <li>FREDI</li>
+              <li>Branding</li>
+            </ul>
+          </article>
+          <article class="article-4-proyectos">
+            <img src="./images/9.png" alt="Imagen APOLLO" />
+            <ul>
+              <li>APOLLO</li>
+              <li>Branding</li>
+            </ul>
+          </article>
+        </section>
+        <button class="explore-services-projects">
+          Explora nuestros servicios
+        </button>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
