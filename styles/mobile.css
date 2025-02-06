@@ -2,4 +2,13 @@
 }
 
 .footer {
+    background-color: black;
+    }
+    .Adadevfooter {
+        color: blueviolet;
+        font-family: "Roboto", serif;
+    }
+.listfooter {
+    display: none;
+
 }
