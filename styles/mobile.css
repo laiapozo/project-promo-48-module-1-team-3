@@ -1,14 +1,38 @@
+:root {
+  --main-color: #8447e9;
+  --second-color: #ffffff;
+  --third-color: #0f0f0f;
+}
+
+.body {
+  font-family: "Roboto", serif;
+}
+
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", serif;
+  color: var(--main-color);
+  background-color: var(--second-color);
+  padding: 30px 40px;
+}
+
+.nav {
+  display: none;
+}
+
+.contact {
+  display: none;
 }
 
 .footer {
-    background-color: black;
-    }
-    .Adadevfooter {
-        color: blueviolet;
-        font-family: "Roboto", serif;
-    }
+  background-color: var(--third-color);
+  padding: 30px;
+}
+.adadevfooter {
+  color: var(--main-color);
+}
 .listfooter {
-    display: none;
-
+  display: none;
 }
