@@ -28,6 +28,23 @@
   display: none;
 }
 
+.title {
+  display: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.explore-services-hero {
+  background-color: var(--main-color);
+  color: var(--second-color);
+  text-align: center;
+  padding: 20px;
+}
+
 .footer {
   background-color: var(--third-color);
   padding: 30px;
