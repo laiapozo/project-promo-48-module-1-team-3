@@ -56,5 +56,12 @@
   display: none;
 }
 .projects {
-  background-color: #8447e9
+  background-color: #8447e9;  
 }
+.title-projects {
+  display:none;
+  }
+  .articles-projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
