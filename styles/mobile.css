@@ -76,19 +76,25 @@
   color: var(--main-color);
   letter-spacing: -0.48px;
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 450;
 }
 
 .programacion-img,
 .marketing-img,
 .design-img {
-  width: 80%;
+  width: 120px;
 }
 
 .programacion-img img,
 .marketing-img img,
 .design-img img {
   width: 100%;
+}
+
+.read-more {
+  font-size: 16px;
+  letter-spacing: -0.8px;
+  font-weight: 450;
 }
 
 .footer {
