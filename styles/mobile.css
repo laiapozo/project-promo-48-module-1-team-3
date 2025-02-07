@@ -44,6 +44,10 @@
   padding: 20px;
 }
 
+.title-services {
+  display: none;
+}
+
 .footer {
   background-color: var(--third-color);
   padding: 30px;
@@ -56,5 +60,5 @@
   display: none;
 }
 .projects {
-  background-color: #8447e9
+  background-color: #8447e9;
 }
