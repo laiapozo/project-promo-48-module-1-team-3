@@ -2,10 +2,11 @@
   --main-color: #8447e9;
   --second-color: #ffffff;
   --third-color: #0f0f0f;
+  --main-font: "Montserrat";
 }
 
 .body {
-  font-family: "Roboto", serif;
+  font-family: var(--main-font);
 }
 
 .header {
@@ -29,6 +30,7 @@
 .footer {
   background-color: var(--third-color);
   padding: 30px;
+  font-family: "Roboto", serif;
 }
 .adadevfooter {
   color: var(--main-color);
