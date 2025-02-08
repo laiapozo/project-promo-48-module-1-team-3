@@ -150,6 +150,27 @@
 }
 
 
+.banner div {
+  display: none;
+}
+
+.banner {
+  height: 27vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/12.jpg);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.776);
+  background-blend-mode: overlay;
+}
+
+.banner h2 {
+  color: white;
+  font-size: 2.2rem;
+}
+
+
 
 .projects {
   background-color: #8447e9;
