@@ -7,7 +7,6 @@
 
 .body {
   font-family: var(--main-font);
-  padding: 30px;
 }
 
 .header {
@@ -44,14 +43,39 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  border: 2px solid #8447e9;
-  width: 80%; 
+  margin: 1.5rem;
+}
+
+.title-news {
+  font-size: 1rem;
+}
+
+.div-img-news {
+  overflow: hidden;
 }
 
 .div-img-news img {
   width: 100%;
+  object-fit: cover;
+  transform: scale(1.1);
 }
-.div-img-news {
-  width: 80%;  
+
+.article-news p {
+  width: 100%;
+  margin-block: 1.5rem;
+  font-size: 0.71rem;
 }
+
+.explore-news {
+  text-align: center;
+}
+.explore-news a {
+  border: solid 1.5px var(--main-color);
+  color: var(--main-color);
+  padding-block: 0.6rem;
+  padding-left: 1.3rem;
+  padding-right: 4rem;
+  font-size: 0.75rem ;
+}
+
 
