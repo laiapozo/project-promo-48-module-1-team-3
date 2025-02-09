@@ -173,21 +173,20 @@
 }
 
 .projects {
-  background-color: var(--main-color);  
+  background-color: var(--main-color);
   display: flex;
   padding: 50px 20px;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   justify-content: center;
- 
 }
 .title-projects {
   font-size: 24px;
   margin-bottom: 30px;
-  display:none;
-  }
+  display: none;
+}
 .subtitle-projects {
-  text-transform:uppercase;
+  text-transform: uppercase;
   margin-right: 100px;
   margin-bottom: 40px;
   font-size: 12px;
@@ -196,32 +195,43 @@
   color: var(--second-color);
 }
 .article-4-proyectos {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  gap:30px  ;
+  gap: 30px;
   width: 100%;
   max-width: 1200%;
-
 }
-.imagenes
-{
-  width:auto;
-
+.imagenes {
+  width: auto;
 }
 .imagenes img {
-  width: 100%
-  ;
+  width: 100%;
 }
 .container-branding {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   margin-bottom: 40px;
 }
+
+.container-branding p:first-child {
+  color: var(--second-color);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.container-branding p:last-child {
+  color: var(--second-color);
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.6;
+}
+
 .explore-services-projects {
-  border: 1px solid var(--second-color) ;
+  border: 1px solid var(--second-color);
   padding: 20px;
   color: var(--second-color);
 }
