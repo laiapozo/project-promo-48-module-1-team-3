@@ -17,22 +17,26 @@
         padding-right:2rem;
     }
 
+    .banner-container {
+        position: relative;
+    }
+
+
     .banner {
         display: flex;
         flex-direction: column;
         gap: 1.7rem;
         padding: 10rem;
-        transform: scale(0.75);
-        position: relative;
-        top: 190px;
-        background-position: center -110px;
-
-
-        
+        transform: scale(0.8);
+        position: absolute;
+        left: 10px;
+        background-position: center -110px;  
+        height: 10vh;    
     }
 
     .banner h2 {
         font-size: 2.3rem;
+
     }
 
     .banner div {
@@ -41,12 +45,17 @@
         color: var(--second-color);
         padding-block: 1rem;
         padding-inline: 1.5rem;
+
+
+
+
       }
 
    .under-banner {
     display: block;
     height: 30vh;
     overflow: hidden;
+    margin-top: 9rem;
    }   
 
    .under-banner img {
