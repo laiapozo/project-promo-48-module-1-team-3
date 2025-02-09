@@ -2,7 +2,7 @@
   --main-color: #8447e9;
   --second-color: #ffffff;
   --third-color: #0f0f0f;
-  --main-font: "Montserrat";
+  --main-font: "Montserrat", sans-serif;
 }
 
 .body {
