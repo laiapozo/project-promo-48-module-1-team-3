@@ -172,6 +172,15 @@
   font-weight: 500;
 }
 
+<<<<<<< HEAD
+=======
+.under-banner {
+  display: none;
+}
+
+
+
+>>>>>>> banner
 .projects {
   background-color: var(--main-color);
   display: flex;
