@@ -1,0 +1,92 @@
+@media (min-width: 768px) {
+  .article-news {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+  }
+
+  .explore-news {
+    text-align: left;
+    margin-top: 2rem;
+  }
+
+  .explore-news a {
+    padding-right: 2rem;
+  }
+
+  .menu-bars {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    color: var(--third-color);
+    font-weight: 500;
+  }
+
+  .nav-list li:first-child {
+    color: var(--main-color);
+  }
+
+  .title {
+    display: block;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -3.41px;
+  }
+
+  .adadev-color {
+    color: var(--main-color);
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding-top: 150px;
+  }
+
+  .title-services {
+    display: block;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    padding: 30px 0 110px 0;
+  }
+
+  .text-services {
+    display: block;
+  }
+
+  .articles-services {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    padding-bottom: 50px;
+  }
+
+  .article-tres-logos {
+    max-width: 300px;
+  }
+
+  .contact {
+    display: block;
+    color: var(--second-color);
+    background-color: var(--main-color);
+    padding: 12px 24px;
+    letter-spacing: -0.8px;
+  }
+
+  .contact i {
+    display: inline;
+    margin-left: 5px;
+  }
+}

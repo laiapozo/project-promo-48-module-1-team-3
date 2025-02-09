@@ -10,23 +10,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/desktop.css" />
-    <link rel="stylesheet" href="./styles/tablet.css" />
     <link rel="stylesheet" href="./styles/mobile.css" />
+    <link rel="stylesheet" href="./styles/tablet.css" />
+    <link rel="stylesheet" href="./styles/desktop.css" />
     <title>Ada Dev</title>
   </head>
   <body class="body">
     <header class="header">
       <h1 class="logo">AdaDev</h1>
-      <div><i class="fa-solid fa-bars"></i></div>
+      <div class="menu-bars"><i class="fa-solid fa-bars"></i></div>
       <nav class="nav">
         <ul class="nav-list">
           <li class="item">Home</li>
-          <li class="item">Nosotros</li>
+          <li class="item">Nosotras</li>
           <li class="item">Blog</li>
           <li class="item">Servicios</li>
         </ul>
@@ -40,7 +44,6 @@
         <h1 class="title">
           Bienvenidas a <span class="adadev-color">AdaDev</span>
         </h1>
-        <!-- Faltaría poner esa línea -->
         <div class="explore-services-hero">
           <a href="">Explora nuestros servicios</a>
         </div>
@@ -50,29 +53,39 @@
         <h2 class="title-services">Tenemos todo lo que necesitas</h2>
         <section class="articles-services">
           <article class="article-tres-logos">
-            <img src="./images/2.png" alt="Logo programación" />
+            <div class="programacion-img">
+              <img src="./images/2.png" alt="Logo programación" />
+            </div>
             <h3>Programación</h3>
-            <p>
+            <p class="text-services">
               Trabaja con las mejores expertas del sector y las últimas
               tecnologías.
             </p>
-            <div>
+            <div class="read-more">
               <a href="">Leer más</a>
             </div>
           </article>
           <article class="article-tres-logos">
-            <img src="./images/3.png" alt="Logo marketing" />
+            <div class="marketing-img">
+              <img src="./images/3.png" alt="Logo marketing" />
+            </div>
             <h3>Marketing</h3>
-            <p>Consigue que tu negocio sea visible en todo el mundo.</p>
-            <div>
+            <p class="text-services">
+              Consigue que tu negocio sea visible en todo el mundo.
+            </p>
+            <div class="read-more">
               <a href="">Leer más</a>
             </div>
           </article>
           <article class="article-tres-logos">
-            <img src="./images/1.png" alt="Logo diseño" />
+            <div class="design-img">
+              <img src="./images/1.png" alt="Logo diseño" />
+            </div>
             <h3>Diseño</h3>
-            <p>Dale forma a tu idea con los diseños más atractivos.</p>
-            <div>
+            <p class="text-services">
+              Dale forma a tu idea con los diseños más atractivos.
+            </p>
+            <div class="read-more">
               <a href="">Leer más</a>
             </div>
           </article>
@@ -87,8 +100,15 @@
         </h2>
         <section class="articles-projects">
           <article class="article-4-proyectos">
+<<<<<<< HEAD
             <div class="imagenes"><img src="./images/10.png" alt="Imagen BLVCK" /></div>
             
+=======
+            <div class="image1Projects">
+              <img src="./images/10.png" alt="Imagen BLVCK" />
+            </div>
+
+>>>>>>> 03120ce1fe662a4c7786aae4d47f75c8d759a06e
             <!-- No estamos seguras de que el display flex funcione con listas -->
             <ul>
               <li class="text-image-left">BLVCK</li>
@@ -96,24 +116,40 @@
             </ul>
           </article>
           <article class="article-4-proyectos">
+<<<<<<< HEAD
             <div class="imagenes"><img src="./images/5.png" alt="Imagen CREAM" /></div>
             
+=======
+            <div class="image2Projects">
+              <img src="./images/5.png" alt="Imagen CREAM" />
+            </div>
+
+>>>>>>> 03120ce1fe662a4c7786aae4d47f75c8d759a06e
             <ul>
               <li class="text-image-left">CREAM</li>
               <li>Branding</li>
             </ul>
           </article>
           <article class="article-4-proyectos">
-            <div class="image3Projects"><img src="./images/11.png" alt="Imagen FREDI" /></div>
-            
+            <div class="image3Projects">
+              <img src="./images/11.png" alt="Imagen FREDI" />
+            </div>
+
             <ul>
               <li class="text-image-left">FREDI</li>
               <li>Branding</li>
             </ul>
           </article>
           <article class="article-4-proyectos">
+<<<<<<< HEAD
             <div class="imagenes"><img src="./images/9.png" alt="Imagen APOLLO" /></div>
           
+=======
+            <div class="image4Projects">
+              <img src="./images/9.png" alt="Imagen APOLLO" />
+            </div>
+
+>>>>>>> 03120ce1fe662a4c7786aae4d47f75c8d759a06e
             <ul>
               <li class="text-image-left">APOLLO</li>
               <li>Branding</li>
@@ -129,23 +165,30 @@
         <h2 class="title-news">Noticias</h2>
         <section class="article-news">
           <article class="article-3-news">
-            <img src="./images/8.png" alt="Imagen hombre">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <div class="div-img-news">
+              <img src="./images/8.png" alt="Imagen hombre" />
+            </div>
+            <p>Otro día, otra locura de Elon Musk… y nadie se sorprende.</p>
           </article>
           <article class="article-3-news">
-            <img src="./images/6.png" alt="Imagen mujer">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </article class="article-3-news">
-          <article>
-            <img src="./images/7.png" alt="Imagen cohete">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="div-img-news">
+              <img src="./images/6.png" alt="Imagen mujer" />
+            </div>
+            <p>Cada vez más mujeres se suman al mundo tecnológico.</p>
+          </article>
+          <article class="article-3-news">
+            <div class="div-img-news">
+              <img src="./images/7.png" alt="Imagen cohete" />
+            </div>
+
+            <p>La exploración espacial sigue rompiendo límites.</p>
           </article>
         </section>
         <div class="explore-news">
           <a href="">Explora noticias</a>
         </div>
       </section>
-      
+
       <section class="banner">
         <h2>Listas para tu proyecto</h2>
         <div>
