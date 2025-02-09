@@ -13,7 +13,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "Roboto", serif;
   color: var(--main-color);
   background-color: var(--second-color);
   padding: 30px 40px;
@@ -149,9 +148,8 @@
   padding-block: 0.6rem;
   padding-left: 1.3rem;
   padding-right: 4rem;
-  font-size: 0.75rem ;
+  font-size: 0.75rem;
 }
-
 
 .banner div {
   display: none;
@@ -174,8 +172,6 @@
   font-weight: 500;
 }
 
-
-
 .projects {
   background-color: #8447e9;
 }
@@ -186,4 +182,3 @@
   display: flex;
   flex-wrap: wrap;
 }
-
