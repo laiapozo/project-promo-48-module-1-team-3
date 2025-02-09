@@ -173,12 +173,55 @@
 }
 
 .projects {
-  background-color: #8447e9;  
+  background-color: var(--main-color);  
+  display: flex;
+  padding: 50px 20px;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+ 
 }
 .title-projects {
+  font-size: 24px;
+  margin-bottom: 30px;
   display:none;
   }
-  .articles-projects {
-    display: flex;
-    flex-wrap: wrap;
-  }
+.subtitle-projects {
+  text-transform:uppercase;
+  margin-right: 100px;
+  margin-bottom: 40px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  color: var(--second-color);
+}
+.article-4-proyectos {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:30px  ;
+  width: 100%;
+  max-width: 1200%;
+
+}
+.imagenes
+{
+  width:auto;
+
+}
+.imagenes img {
+  width: 100%
+  ;
+}
+.container-branding {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.explore-services-projects {
+  border: 1px solid var(--second-color) ;
+  padding: 20px;
+  color: var(--second-color);
+}
