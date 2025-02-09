@@ -1,2 +1,22 @@
 @media (min-width: 768px) {
+
+
+
+    .article-news {
+        display: flex;
+        flex-direction: row;
+        gap: 0.7rem;
+    }
+
+    .explore-news {
+        text-align: left;
+    }
+
+    .explore-news a {
+        padding-right:2rem;
+    }
+
+
+
+
 }
