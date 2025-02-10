@@ -1,0 +1,389 @@
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+// Mobile
+:root {
+  --main-color: #8447e9;
+  --second-color: #ffffff;
+  --third-color: #0f0f0f;
+  --main-font: "Montserrat", sans-serif;
+}
+
+.body {
+  font-family: var(--main-font);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--main-color);
+  background-color: var(--second-color);
+  padding: 30px 40px;
+}
+
+.nav {
+  display: none;
+}
+
+.contact {
+  display: none;
+}
+
+.title {
+  display: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.explore-services-hero {
+  background-color: var(--main-color);
+  color: var(--second-color);
+  text-align: center;
+  padding: 20px;
+}
+
+.services {
+  padding: 50px;
+}
+
+.title-services {
+  display: none;
+}
+
+.text-services {
+  display: none;
+}
+.articles-services {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.article-tres-logos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 25px;
+}
+
+.article-tres-logos h3 {
+  color: var(--main-color);
+  letter-spacing: -0.48px;
+  font-size: 32px;
+  font-weight: 450;
+}
+
+.programacion-img,
+.marketing-img,
+.design-img {
+  width: 120px;
+}
+
+.programacion-img img,
+.marketing-img img,
+.design-img img {
+  width: 100%;
+}
+
+.read-more {
+  font-size: 16px;
+  letter-spacing: -0.8px;
+  font-weight: 600;
+}
+
+.footer {
+  background-color: var(--third-color);
+  padding: 30px;
+  font-family: "Roboto", serif;
+}
+.adadevfooter {
+  color: var(--main-color);
+}
+.listfooter {
+  display: none;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 1.5rem;
+}
+
+.title-news {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--third-color);
+}
+
+.div-img-news {
+  overflow: hidden;
+}
+
+.div-img-news img {
+  width: 100%;
+  object-fit: cover;
+  transform: scale(1.1);
+}
+
+.article-news p {
+  width: 100%;
+  margin-block: 1.5rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--third-color);
+}
+
+.explore-news {
+  text-align: center;
+}
+.explore-news a {
+  border: solid 1.5px var(--main-color);
+  color: var(--main-color);
+  padding-block: 0.6rem;
+  padding-left: 1.3rem;
+  padding-right: 4rem;
+  font-size: 0.75rem;
+}
+
+.banner div {
+  display: none;
+}
+
+.banner {
+  height: 27vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/12.jpg);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.776);
+  background-blend-mode: overlay;
+}
+
+.banner h2 {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.under-banner {
+  display: none;
+}
+
+.projects {
+  background-color: var(--main-color);
+  display: flex;
+  padding: 50px 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title-projects {
+  font-size: 24px;
+  margin-bottom: 30px;
+  display: none;
+}
+.subtitle-projects {
+  text-transform: uppercase;
+  margin-right: 100px;
+  margin-bottom: 40px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  color: var(--second-color);
+}
+.article-4-proyectos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  max-width: 1200%;
+}
+.imagenes {
+  width: auto;
+}
+.imagenes img {
+  width: 100%;
+}
+.container-branding {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.container-branding p:first-child {
+  color: var(--second-color);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.container-branding p:last-child {
+  color: var(--second-color);
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+.explore-services-projects {
+  border: 1px solid var(--second-color);
+  padding: 20px;
+  color: var(--second-color);
+}
+
+// Tablet
+
+@media (min-width: 768px) {
+  .article-news {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+  }
+
+  .explore-news {
+    text-align: left;
+    margin-top: 2rem;
+  }
+
+  .explore-news a {
+    padding-right: 2rem;
+  }
+
+  .menu-bars {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    color: var(--third-color);
+    font-weight: 500;
+  }
+
+  .nav-list li:first-child {
+    color: var(--main-color);
+  }
+  .banner-container {
+    position: relative;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    padding: 10rem;
+    transform: scale(0.8);
+    position: absolute;
+    left: 10px;
+    background-position: center -110px;
+    height: 10vh;
+  }
+
+  .banner h2 {
+    font-size: 2.3rem;
+  }
+
+  .banner div {
+    display: block;
+    background-color: var(--main-color);
+    color: var(--second-color);
+    padding-block: 1rem;
+    padding-inline: 1.5rem;
+  }
+
+  .under-banner {
+    display: block;
+    height: 30vh;
+    overflow: hidden;
+    margin-top: 9rem;
+  }
+
+  .under-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .title {
+    display: block;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -3.41px;
+  }
+
+  .adadev-color {
+    color: var(--main-color);
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding-top: 150px;
+  }
+
+  .title-services {
+    display: block;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    padding: 30px 0 110px 0;
+  }
+
+  .text-services {
+    display: block;
+  }
+
+  .articles-services {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    padding-bottom: 50px;
+  }
+
+  .article-tres-logos {
+    max-width: 300px;
+  }
+
+  .contact {
+    display: block;
+    color: var(--second-color);
+    background-color: var(--main-color);
+    padding: 12px 24px;
+    letter-spacing: -0.8px;
+  }
+
+  .contact i {
+    display: inline;
+    margin-left: 5px;
+  }
+}
