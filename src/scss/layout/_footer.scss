@@ -9,3 +9,23 @@
   .listfooter {
     display: none;
   }
+
+@media (min-width: 768px) {
+  .footer {
+    padding-left: 60px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .listfooter {
+    display: flex;
+    color: var(--second-color);
+    gap: 40px;
+    font-weight: 300;
+    font-size: 13px;
+  }
+
+}

@@ -61,9 +61,11 @@
 
     .under-banner {
         display: block;
-        height: 30vh;
         overflow: hidden;
         margin-top: 9rem;
+        position: relative;
+        bottom: -10px;
+        z-index: -1;
     }
 
     .under-banner img {
