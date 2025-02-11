@@ -1,9 +1,11 @@
+@use "../core/variables" as vars;
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: var(--main-color);
-  background-color: var(--second-color);
+  color: vars.$main-color;
+  background-color: vars.$second-color;
   padding: 30px 40px;
 }
 
@@ -33,7 +35,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    color: var(--third-color);
+    color: vars.$third-color;
     font-weight: 500;
   }
 
@@ -43,8 +45,8 @@
 
   .contact {
     display: block;
-    color: var(--second-color);
-    background-color: var(--main-color);
+    color: vars.$second-color;
+    background-color: vars.$main-color;
     padding: 12px 24px;
     letter-spacing: -0.8px;
   }

@@ -1,5 +1,7 @@
+@use "../core/variables" as vars;
+
 .projects {
-    background-color: var(--main-color);
+    background-color: vars.$main-color;
     display: flex;
     padding: 50px 20px;
     flex-direction: column;
@@ -18,7 +20,7 @@
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 1.2px;
-    color: var(--second-color);
+    color: vars.$second-color;
   }
   .article-4-proyectos {
     display: flex;
@@ -44,22 +46,22 @@
   }
   
   .container-branding p:first-child {
-    color: var(--second-color);
+    color: vars.$second-color;
     font-size: 22px;
     font-weight: 600;
   }
   
   .container-branding p:last-child {
-    color: var(--second-color);
+    color: vars.$second-color;
     font-size: 12px;
     font-weight: 500;
     opacity: 0.6;
   }
   
   .explore-services-projects {
-    border: 1px solid var(--second-color);
+    border: 1px solid  vars.$second-color;
     padding: 20px;
-    color: var(--second-color);
+    color: vars.$second-color;
   }
   @media (min-width: 768px) {
     .subtitle-projects { 
@@ -71,7 +73,7 @@
       display: block;
       font-size: 28px;
       font-weight: 350;
-      color: var(--second-color);
+      color: vars.$second-color;
       margin-left: 60px;
     }
     

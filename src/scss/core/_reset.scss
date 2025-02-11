@@ -1,3 +1,5 @@
+@use "../core/variables" as vars;
+
 * {
   margin: 0;
   padding: 0;
@@ -11,5 +13,5 @@ a {
 }
 // No tenemos muy claro dónde ponerlo, podemos crear también un partial para el body
 .body {
-  font-family: var(--main-font);
+  font-family: vars.$main-font;
 }
