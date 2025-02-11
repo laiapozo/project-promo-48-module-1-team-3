@@ -27,6 +27,9 @@
 @media (min-width: 768px) {
 
     .banner-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
         position: relative;
     }
 
@@ -35,10 +38,12 @@
         flex-direction: column;
         gap: 1.7rem;
         padding: 10rem;
-        transform: scale(0.8);
+        // transform: scale(0.8);
+        width: 75%;
         position: absolute;
-        left: 10px;
-        background-position: center -110px;
+
+        left: 100px;
+        background-position: center -10px;
         height: 10vh;
     }
 
