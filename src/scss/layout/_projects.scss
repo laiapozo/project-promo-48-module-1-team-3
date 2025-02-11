@@ -61,3 +61,19 @@
     padding: 20px;
     color: var(--second-color);
   }
+  @media (min-width: 768px) {
+    .subtitle-projects { 
+      margin-right: auto;
+      margin-left: 60px;
+      
+    }
+    .title-projects {
+      display: block;
+      font-size: 28px;
+      font-weight: 350;
+      color: var(--second-color);
+      margin-left: 60px;
+    }
+    
+
+  }
