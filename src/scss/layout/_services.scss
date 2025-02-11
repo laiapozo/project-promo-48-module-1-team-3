@@ -1,0 +1,52 @@
+.services {
+  padding: 50px;
+}
+
+.title-services {
+  display: none;
+}
+
+.text-services {
+  display: none;
+}
+.articles-services {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.article-tres-logos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 25px;
+}
+
+.article-tres-logos h3 {
+  color: var(--main-color);
+  letter-spacing: -0.48px;
+  font-size: 32px;
+  font-weight: 450;
+}
+
+.programacion-img,
+.marketing-img,
+.design-img {
+  width: 120px;
+}
+
+.programacion-img img,
+.marketing-img img,
+.design-img img {
+  width: 100%;
+}
+
+.read-more {
+  font-size: 16px;
+  letter-spacing: -0.8px;
+  font-weight: 600;
+}

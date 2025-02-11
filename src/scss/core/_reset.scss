@@ -1,5 +1,15 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+// No tenemos muy claro dónde ponerlo, podemos crear también un partial para el body
+.body {
+  font-family: var(--main-font);
 }

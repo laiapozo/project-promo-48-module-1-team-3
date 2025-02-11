@@ -1,5 +1,20 @@
-.page__header {
+.header {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--main-color);
+  background-color: var(--second-color);
+  padding: 30px 40px;
+}
+
+.nav {
+  display: none;
+}
+
+.contact {
+  display: none;
+}
+
+.title {
+  display: none;
 }

@@ -1,14 +1,7 @@
-// Reset
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-}
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@use 'core/reset';
+@use 'layout/header';
+@use 'layout/hero';
+@use 'layout/services';
 
 // Mobile
 :root {
@@ -16,97 +9,6 @@ a {
   --second-color: #ffffff;
   --third-color: #0f0f0f;
   --main-font: "Montserrat", sans-serif;
-}
-
-.body {
-  font-family: var(--main-font);
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: var(--main-color);
-  background-color: var(--second-color);
-  padding: 30px 40px;
-}
-
-.nav {
-  display: none;
-}
-
-.contact {
-  display: none;
-}
-
-.title {
-  display: none;
-}
-
-.hero {
-  display: flex;
-  justify-content: center;
-  padding: 50px;
-}
-
-.explore-services-hero {
-  background-color: var(--main-color);
-  color: var(--second-color);
-  text-align: center;
-  padding: 20px;
-}
-
-.services {
-  padding: 50px;
-}
-
-.title-services {
-  display: none;
-}
-
-.text-services {
-  display: none;
-}
-.articles-services {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  align-items: flex-start;
-  gap: 50px;
-}
-
-.article-tres-logos {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
-  gap: 25px;
-}
-
-.article-tres-logos h3 {
-  color: var(--main-color);
-  letter-spacing: -0.48px;
-  font-size: 32px;
-  font-weight: 450;
-}
-
-.programacion-img,
-.marketing-img,
-.design-img {
-  width: 120px;
-}
-
-.programacion-img img,
-.marketing-img img,
-.design-img img {
-  width: 100%;
-}
-
-.read-more {
-  font-size: 16px;
-  letter-spacing: -0.8px;
-  font-weight: 600;
 }
 
 .footer {
