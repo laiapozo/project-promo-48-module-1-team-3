@@ -24,7 +24,7 @@
 }
 
 .article-news p {
-    width: 100%;
+    // width: 100%;
     margin-block: 1.5rem;
     font-size: 0.7rem;
     font-weight: 500;
@@ -46,8 +46,9 @@
 
 @media (min-width: 768px) {
     .article-news {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1r;
         gap: 0.7rem;
     }
 
