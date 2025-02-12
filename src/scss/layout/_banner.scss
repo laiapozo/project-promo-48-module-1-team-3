@@ -44,6 +44,7 @@
         width: 75%;
         position: absolute;
         left: 50%;
+        top: 80px;
         transform: translate(-50%);
         background-position: center -10px;
         height: 10vh;
@@ -66,8 +67,9 @@
         overflow: hidden;
         margin-top: 9rem;
         position: relative;
-        bottom: -10px;
+        bottom: -80px;
         z-index: -1;
+        transform: scale(1.01);
     }
 
     .under-banner img {
