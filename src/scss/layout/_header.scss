@@ -7,6 +7,8 @@
   color: vars.$main-color;
   background-color: vars.$second-color;
   padding: 30px 40px;
+  position: sticky;
+  top: 0;
 }
 
 .nav {
