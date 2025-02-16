@@ -1,1 +1,39 @@
 @use "../core/variables" as vars;
+
+.interest-title {
+    padding: 30px 50px 70px;
+    font-weight: 500;
+    font-size: 42px;
+}
+
+.interest-form {
+    padding-left: 50px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.interest-form input {
+    border: none;
+    border-bottom: 1px #d9d9d9 solid;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.interest-form button {
+    background-color: vars.$main-color;
+    color: vars.$second-color;
+    border: none;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.container-img {
+    width: 100vw;
+}
+
+.container-img img {
+    width: 100%;
+}
