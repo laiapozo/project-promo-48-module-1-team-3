@@ -11,7 +11,13 @@
   color: vars.$second-color;
   text-align: center;
   padding: 20px;
+  transition: transform 0.3s ease-in;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
+
 @media (min-width: 768px) {
   .title {
     display: block;

@@ -68,6 +68,11 @@
   border: 1px solid vars.$second-color;
   padding: 20px;
   color: vars.$second-color;
+  transition: transform 0.3s ease-in;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 @media (min-width: 768px) {
@@ -95,6 +100,7 @@
     width: 50%;
 
   }
+
   .container-branding {
     justify-content: space-around;
   }
