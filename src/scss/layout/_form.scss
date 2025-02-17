@@ -37,3 +37,49 @@
 .container-img img {
     width: 100%;
 }
+
+@media (min-width: 768px) {
+    .interest {
+        display: flex;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .interest-form {
+        padding: 0;
+    }
+
+    .interest-title {
+        padding: 0 2rem 2rem 0;
+    }
+
+    .container-img {
+        width: 70%;
+        overflow: hidden;
+    }
+
+    .container-img img {
+        transform: scale(6.5);
+    }
+}
+
+@media (min-width: 1024px) {
+    .interest {
+        display: flex;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    .container-img {
+        width: 50%;
+        overflow: hidden;
+    }
+
+    .container-img img {
+        transform: scale(4.5);
+    }
+}
