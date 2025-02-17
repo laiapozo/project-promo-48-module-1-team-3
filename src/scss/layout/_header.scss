@@ -52,10 +52,11 @@
     background-color: vars.$main-color;
     padding: 12px 24px;
     letter-spacing: -0.8px;
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in, background-color 0.3s ease-in;
 
     &:hover {
       transform: scale(1.1);
+      background-color: #8547e9be;
     }
   }
 

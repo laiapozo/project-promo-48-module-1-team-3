@@ -60,11 +60,13 @@
         color: var(--second-color);
         padding-block: 1rem;
         padding-inline: 1.5rem;
-        transition: transform 0.3s ease-in;
+        transition: transform 0.3s ease-in, background-color 0.3s ease-in;
 
         &:hover {
             transform: scale(1.1);
+            background-color: #8547e9be;
         }
+
     }
 
     .under-banner {

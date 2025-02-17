@@ -11,10 +11,11 @@
   color: vars.$second-color;
   text-align: center;
   padding: 20px;
-  transition: transform 0.3s ease-in;
+  transition: transform 0.3s ease-in, background-color 0.3s ease-in;
 
   &:hover {
     transform: scale(1.1);
+    background-color: #8547e9be;
   }
 }
 
